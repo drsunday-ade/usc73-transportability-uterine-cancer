@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+  body{font-family:Arial,Helvetica,sans-serif;margin:20px;}
+  h2{margin:0 0 10px 0;}
+  p.note{margin:8px 0 16px 0;color:#444;font-size:12px;}
+  table{border-collapse:collapse;width:100%;font-size:12px;}
+  th,td{border:1px solid #ddd;padding:6px 8px;vertical-align:top;}
+  th{background:#f6f6f6;text-align:left;}
+  tr:nth-child(even){background:#fbfbfb;}
+  </style></head><body><h2>Best-performing model per direction (primary criterion: mean recalibrated Brier)</h2><p class='note'><strong>Notes:</strong> Model selection here is descriptive, not inferential; intended to summarize performance under cohort shift.</p><table><tr><th>direction</th><th>model</th><th>brier_recal_mean</th><th>brier_mean</th><th>c_index_mean</th><th>auc_mean</th></tr><tr><td>TCGA -&gt; UPSC</td><td>Cox Base</td><td>0.1394</td><td>0.1583</td><td>0.7714</td><td>NA</td></tr><tr><td>UPSC -&gt; TCGA</td><td>Ridge Base</td><td>0.1860</td><td>0.1883</td><td>0.7495</td><td>NA</td></tr></table></body></html>

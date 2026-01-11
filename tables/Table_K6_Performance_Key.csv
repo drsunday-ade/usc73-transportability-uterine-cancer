@@ -1,0 +1,9 @@
+direction,model,n_tau,c_index_mean,auc_mean,brier_mean,brier_recal_mean
+TCGA -> UPSC,Cox Base,7,0.771,NA,0.1583,0.1394
+TCGA -> UPSC,Cox Extended,7,0.679,NA,0.726,0.726
+TCGA -> UPSC,Ridge Base,7,0.772,NA,0.2137,0.2137
+TCGA -> UPSC,Ridge Extended,7,0.698,NA,0.726,0.5179
+UPSC -> TCGA,Cox Base,3,0.741,NA,0.2035,0.201
+UPSC -> TCGA,Cox Extended,3,0.785,NA,0.2799,0.2272
+UPSC -> TCGA,Ridge Base,3,0.749,NA,0.1883,0.186
+UPSC -> TCGA,Ridge Extended,3,0.789,NA,0.2018,0.1891

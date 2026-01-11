@@ -1,0 +1,29 @@
+=== USC73 TRANSPORTABILITY PIPELINE V9 ===
+Seed: 20260110 | nfolds: 5 | min_cases: 10 | min_controls: 10 
+Tau candidates: 1, 1.5, 2, 2.5, 3, 3.5, 4, 5 
+MAKE_HTML: TRUE | NO_INSTALL: FALSE 
+Prefixes: TCGA (TCGA) | UPSC (UPSC)
+allow_unknown_stage: FALSE | allow_unknown_race: TRUE 
+
+NOTE: --input not provided. Auto-selected: C:/Users/ugorji_h/Desktop/sunday_pc/OneDrive - Oregon State University/endocancer/Supplementary_Expression_phenotype_data.xlsx 
+
+Input: C:/Users/ugorji_h/Desktop/sunday_pc/OneDrive - Oregon State University/endocancer/Supplementary_Expression_phenotype_data.xlsx 
+Chosen sheet: USC_all27jan2019_expression dat 
+
+Detected columns:
+ id:sample_id
+ os_time:os_years
+ os_status:os_status
+ age:age_at_dx
+ race:race
+ stage:stage
+ usc73:usc73_86
+
+Time unit: years -> OS converted to years.
+
+N total (TCGA+UPSC): 125 | N complete-case (age): 122 
+
+
+PIPELINE COMPLETE.
+Outputs written to: usc73_v9 
+Figures: 18  | Tables: 37 

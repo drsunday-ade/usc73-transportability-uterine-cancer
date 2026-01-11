@@ -1,0 +1,9 @@
+direction,tau_years,model,nb_auc,nb_auc_all,nb_gain_vs_all
+TCGA -> UPSC,2,Ridge Base (raw),0.0523,-0.1314,0.1837
+TCGA -> UPSC,2,Ridge Base (recal),0.0523,-0.1314,0.1837
+TCGA -> UPSC,2,Ridge Ext (raw),-0.1314,-0.1314,0
+TCGA -> UPSC,2,Ridge Ext (recal),0.0243,-0.1314,0.1557
+UPSC -> TCGA,2,Ridge Base (raw),0.0392,-0.2332,0.2724
+UPSC -> TCGA,2,Ridge Base (recal),0.0549,-0.2332,0.2881
+UPSC -> TCGA,2,Ridge Ext (raw),0.0213,-0.2332,0.2545
+UPSC -> TCGA,2,Ridge Ext (recal),0.0841,-0.2332,0.3173

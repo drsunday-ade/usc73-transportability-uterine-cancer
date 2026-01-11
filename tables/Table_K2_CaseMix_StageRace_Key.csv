@@ -1,0 +1,12 @@
+cohort,stage,race3,n,pct
+TCGA,early,AA,8,13.8
+TCGA,early,C,16,27.6
+TCGA,early,Other/Unknown,5,8.6
+TCGA,advanced,AA,9,15.5
+TCGA,advanced,C,18,31
+TCGA,advanced,Other/Unknown,2,3.4
+UPSC,early,AA,21,31.3
+UPSC,early,C,14,20.9
+UPSC,advanced,AA,20,29.9
+UPSC,advanced,C,7,10.4
+UPSC,advanced,Other/Unknown,5,7.5

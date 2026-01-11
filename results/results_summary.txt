@@ -1,0 +1,13 @@
+USC73 Transportability Pipeline V9 — Results Summary
+Input: C:/Users/ugorji_h/Desktop/sunday_pc/OneDrive - Oregon State University/endocancer/Supplementary_Expression_phenotype_data.xlsx
+Sheet: USC_all27jan2019_expression dat
+Time unit (converted): years -> years
+N (TCGA+UPSC): 125 | N complete-case age: 122
+
+Representative taus (closest to 2y among estimable):
+  TCGA -> UPSC rep_tau = 2
+  UPSC -> TCGA rep_tau = 2
+
+Best model per direction (by mean recalibrated Brier):
+  TCGA -> UPSC: Cox Base | brier_recal_mean=0.1394 | c_index_mean=0.7714 | auc_mean=NaN
+  UPSC -> TCGA: Ridge Base | brier_recal_mean=0.186 | c_index_mean=0.7495 | auc_mean=NaN

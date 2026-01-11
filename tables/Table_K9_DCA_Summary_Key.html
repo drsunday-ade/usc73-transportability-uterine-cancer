@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+  body{font-family:Arial,Helvetica,sans-serif;margin:20px;}
+  h2{margin:0 0 10px 0;}
+  p.note{margin:8px 0 16px 0;color:#444;font-size:12px;}
+  table{border-collapse:collapse;width:100%;font-size:12px;}
+  th,td{border:1px solid #ddd;padding:6px 8px;vertical-align:top;}
+  th{background:#f6f6f6;text-align:left;}
+  tr:nth-child(even){background:#fbfbfb;}
+  </style></head><body><h2>Decision curve summary (IPCW net benefit)</h2><p class='note'><strong>Notes:</strong> nb_gain_vs_all &gt; 0 indicates advantage over treat-all across the threshold range.</p><table><tr><th>direction</th><th>tau_years</th><th>model</th><th>nb_auc</th><th>nb_auc_all</th><th>nb_gain_vs_all</th></tr><tr><td>TCGA -&gt; UPSC</td><td>2</td><td>Ridge Base (raw)</td><td> 0.0523</td><td>-0.1314</td><td>0.1837</td></tr><tr><td>TCGA -&gt; UPSC</td><td>2</td><td>Ridge Base (recal)</td><td> 0.0523</td><td>-0.1314</td><td>0.1837</td></tr><tr><td>TCGA -&gt; UPSC</td><td>2</td><td>Ridge Ext (raw)</td><td>-0.1314</td><td>-0.1314</td><td>0.0000</td></tr><tr><td>TCGA -&gt; UPSC</td><td>2</td><td>Ridge Ext (recal)</td><td> 0.0243</td><td>-0.1314</td><td>0.1557</td></tr><tr><td>UPSC -&gt; TCGA</td><td>2</td><td>Ridge Base (raw)</td><td> 0.0392</td><td>-0.2332</td><td>0.2724</td></tr><tr><td>UPSC -&gt; TCGA</td><td>2</td><td>Ridge Base (recal)</td><td> 0.0549</td><td>-0.2332</td><td>0.2881</td></tr><tr><td>UPSC -&gt; TCGA</td><td>2</td><td>Ridge Ext (raw)</td><td> 0.0213</td><td>-0.2332</td><td>0.2545</td></tr><tr><td>UPSC -&gt; TCGA</td><td>2</td><td>Ridge Ext (recal)</td><td> 0.0841</td><td>-0.2332</td><td>0.3173</td></tr></table></body></html>

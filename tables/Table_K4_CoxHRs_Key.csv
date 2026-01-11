@@ -1,0 +1,8 @@
+model,term,HR,CI_low,CI_high,p_value
+Base: age + race + stage,age_at_dx,0.974,0.935,1.014,0.201
+Base: age + race + stage,stageadvanced,7.109,3.22,15.697,1.21e-6
+Base: age + race + stage,stageunknown,NA,NA,NA,NA
+Extended: base + USC73,age_at_dx,0.971,0.93,1.014,0.187
+Extended: base + USC73,stageadvanced,6.733,3.016,15.028,3.25e-6
+Extended: base + USC73,stageunknown,NA,NA,NA,NA
+Extended: base + USC73,usc73_score,1.526,1.121,2.077,0.00725

@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+  body{font-family:Arial,Helvetica,sans-serif;margin:20px;}
+  h2{margin:0 0 10px 0;}
+  p.note{margin:8px 0 16px 0;color:#444;font-size:12px;}
+  table{border-collapse:collapse;width:100%;font-size:12px;}
+  th,td{border:1px solid #ddd;padding:6px 8px;vertical-align:top;}
+  th{background:#f6f6f6;text-align:left;}
+  tr:nth-child(even){background:#fbfbfb;}
+  </style></head><body><h2>Key Cox effects (interpretability; pooled complete-case)</h2><p class='note'><strong>Notes:</strong> Extended model includes USC73; hazard ratios are adjusted for age, race, and stage.</p><table><tr><th>model</th><th>term</th><th>HR</th><th>CI_low</th><th>CI_high</th><th>p_value</th></tr><tr><td>Base: age + race + stage</td><td>age_at_dx</td><td>0.974</td><td>0.935</td><td> 1.014</td><td>2.01e-01</td></tr><tr><td>Base: age + race + stage</td><td>stageadvanced</td><td>7.109</td><td>3.220</td><td>15.697</td><td>1.21e-06</td></tr><tr><td>Base: age + race + stage</td><td>stageunknown</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr><tr><td>Extended: base + USC73</td><td>age_at_dx</td><td>0.971</td><td>0.930</td><td> 1.014</td><td>1.87e-01</td></tr><tr><td>Extended: base + USC73</td><td>stageadvanced</td><td>6.733</td><td>3.016</td><td>15.028</td><td>3.25e-06</td></tr><tr><td>Extended: base + USC73</td><td>stageunknown</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td></tr><tr><td>Extended: base + USC73</td><td>usc73_score</td><td>1.526</td><td>1.121</td><td> 2.077</td><td>7.25e-03</td></tr></table></body></html>

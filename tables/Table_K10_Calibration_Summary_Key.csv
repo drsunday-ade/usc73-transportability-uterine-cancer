@@ -1,0 +1,9 @@
+direction,tau_years,model,bins,mae
+TCGA -> UPSC,2,Ridge Base (raw),5,0.0871
+TCGA -> UPSC,2,Ridge Base (recal),5,0.0871
+TCGA -> UPSC,2,Ridge Ext (raw),5,0.7178
+TCGA -> UPSC,2,Ridge Ext (recal),5,0.1807
+UPSC -> TCGA,2,Ridge Base (raw),3,0.133
+UPSC -> TCGA,2,Ridge Base (recal),3,0.0206
+UPSC -> TCGA,2,Ridge Ext (raw),3,0.1023
+UPSC -> TCGA,2,Ridge Ext (recal),3,0.1027

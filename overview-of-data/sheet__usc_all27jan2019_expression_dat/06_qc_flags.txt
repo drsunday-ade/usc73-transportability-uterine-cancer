@@ -1,0 +1,7 @@
+=== DATA QC FLAGS / NOTES ===
+Rows: 125 | Columns: 92
+Clinical core present: age_at_dx, age, race, stage, os_years, os_status
+Clinical core NOT found (check naming): usc73
+OS years: non-missing=125; min=0.022; max=5.000; negatives=0
+OS status unique values (up to 20): 0, 1
+Stage unique values (up to 30): 2advanced, 1early

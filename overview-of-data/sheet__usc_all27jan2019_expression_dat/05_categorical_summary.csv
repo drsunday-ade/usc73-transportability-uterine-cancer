@@ -1,0 +1,6 @@
+variable,role,inferred_type,n_unique_nonmissing,pct_missing,top_levels
+age,clinical_core,categorical,3,0,O (103) | Y (19) | NA (3)
+race,clinical_core,categorical,3,0,AA (58) | C (55) | Other/Unknown (12)
+stage,clinical_core,categorical,2,0,1early (64) | 2advanced (61)
+sample_id,molecular_feature,text,125,0,TCGA.A5.A1OH.01 (1) | TCGA.A5.A2K2.01 (1) | TCGA.A5.A2K3.01 (1) | TCGA.A5.A2K4.01 (1) | TCGA.A5.A3LP.01 (1) | TCGA.AJ.A23N.01 (1) | TCGA.AJ.A2QM.01 (1) | TCGA.AJ.A3BD.01 (1) | TCGA.AJ.A3BF.01 (1) | TCGA.AJ.A3IA.01 (1)
+usc73_91,molecular_feature,categorical,2,0,1low (84) | 2high (41)

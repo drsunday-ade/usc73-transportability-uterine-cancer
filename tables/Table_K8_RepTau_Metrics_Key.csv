@@ -1,0 +1,9 @@
+direction,tau_years,model,c_index,auc_tau,brier_tau,calib_intercept,calib_slope,brier_recal
+TCGA -> UPSC,2,Cox Base,0.7714,NA,0.1459,0.8957,1.2547,0.1378
+TCGA -> UPSC,2,Cox Extended,0.6785,NA,0.7177,-0.9331,NA,0.7177
+TCGA -> UPSC,2,Ridge Base,0.7723,NA,0.2071,-0.9331,NA,0.2071
+TCGA -> UPSC,2,Ridge Extended,0.6976,NA,0.7177,-36.8705,1.9523,0.3018
+UPSC -> TCGA,2,Cox Base,0.7414,NA,0.1596,1.2081,1.0278,0.152
+UPSC -> TCGA,2,Cox Extended,0.785,NA,0.2966,-2.2157,0.6059,0.1386
+UPSC -> TCGA,2,Ridge Base,0.7495,NA,0.1624,5.2779,7.0039,0.1558
+UPSC -> TCGA,2,Ridge Extended,0.789,NA,0.1758,24.7016,33.7956,0.1378
