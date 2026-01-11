@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software/pipeline, please cite it using the metadata below.
+title: >-
+  Transportability of Fixed-Horizon Survival Prediction in Uterine Serous Carcinoma
+  Under Cohort Shift: Bi-directional Internal–External Validation of a
+  Clinicopathologic Model With and Without the USC73 Molecular Signature
+type: software
+authors:
+  - given-names: Sunday A.
+    family-names: Adetunji
+    email: adetunjs@oregonstate.edu
+    affiliation: >-
+      Department of Biostatistics and Epidemiology, Oregon State University, USA;
+      Faculty of Clinical Sciences, Obafemi Awolowo University, Nigeria
+    orcid: https://orcid.org/0000-0001-9321-9957
+  - given-names: Rhoda O.
+    family-names: Oyewusi
+    affiliation: Department of Nursing, University of Lagos, Nigeria
+  - given-names: Shoborose
+    family-names: Tantray
+    affiliation: >-
+      Department of Epidemiology, Oregon State University, USA;
+      Department of Pathology, Santosh Medical University, India
+repository-code: https://github.com/drsunday-ade/usc73-transportability-uterine-cancer
+url: https://github.com/drsunday-ade/usc73-transportability-uterine-cancer
+date-released: 2026-01-11
+keywords:
+  - uterine serous carcinoma
+  - transportability
+  - internal-external validation
+  - survival prediction
+  - fixed-horizon risk
+  - Cox model
+  - ridge Cox
+  - IPCW
+  - calibration
+  - decision curve analysis
+abstract: >-
+  Reproducible analysis pipeline for bi-directional internal–external validation
+  (TCGA↔UPSC) of fixed-horizon survival prediction models in uterine serous
+  carcinoma, quantifying discrimination, IPCW Brier score, calibration and
+  clinical utility under cohort shift, and evaluating incremental value of the
+  USC73 molecular signature with cross-fitted target recalibration.
+preferred-citation:
+  type: software
+  title: >-
+    Transportability of Fixed-Horizon Survival Prediction in Uterine Serous Carcinoma
+    Under Cohort Shift: Bi-directional Internal–External Validation of a
+    Clinicopathologic Model With and Without the USC73 Molecular Signature
+  authors:
+    - given-names: Sunday A.
+      family-names: Adetunji
+      orcid: https://orcid.org/0000-0001-9321-9957
+    - given-names: Rhoda O.
+      family-names: Oyewusi
+    - given-names: Shoborose
+      family-names: Tantray
+  year: 2026
+  repository-code: https://github.com/drsunday-ade/usc73-transportability-uterine-cancer
